@@ -49,9 +49,9 @@ npm create umi
 
 ###### h6
 
-> hello world!
->> hello world!
->>> hello world!
+> code层级1
+>> code层级2
+>>> code层级3
 
 <div>
     <div>111</div>
@@ -68,6 +68,7 @@ for (var i = 0; i < 5; i++) {
 }
 console.log(num);
 ```
+
 [百度123](http://www.baidu.com/" 百度一下"){:target="_blank"}   
 
 ![](./01.png '描述')
@@ -94,18 +95,8 @@ console.log(num);
     * two-1
     * two-2
 
-
-* one
-
-```javascript
-    var a = 10;     // 与上行保持空行并 递进缩进
-```
-
 - [x] 选项一
-- [ ] 选项二  
-- [ ]  [选项3]
-
-<p style="color: #AD5D0F;font-size: 30px; font-family: '宋体';">内联样式</p>
+- [ ] 选项二
 
 *斜体* _斜体_ **加粗** ***加粗+斜体*** **_加粗+斜体_** ~~删除线~~
 
@@ -123,6 +114,6 @@ console.log(num);
 
 ***
 
-Markdown[^id]
+Markdown[^1]
 
-[公式标题锚点](#id)
+[公式标题锚点](#1)
