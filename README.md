@@ -34,3 +34,118 @@ npm create umi
    create src\pages\index.js
    create webpack.config.js
 ✨ File Generate Done
+```
+
+- [manage-system](#manage-system)
+- [h1](#h1)
+  - [h2](#h2)
+    - [h3](#h3)
+      - [h4](#h4)
+        - [h5](#h5)
+          - [h6](#h6)
+- [一级标题](#%e4%b8%80%e7%ba%a7%e6%a0%87%e9%a2%98)
+  - [二级标题](#%e4%ba%8c%e7%ba%a7%e6%a0%87%e9%a2%98)
+  - [<hr>](#hr)
+
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+
+一级标题
+===
+二级标题
+---
+
+> hello world!
+>> hello world!
+>>> hello world!
+
+> hello world!
+
+请问`hello world`
+`
+<div>
+    <div>111</div>
+    <div>222</div>
+    <div>333</div>
+</div>
+`
+
+// 代码
+```
+<div>   
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+```
+
+// javascript代码
+```javascript
+var num = 0;
+for (var i = 0; i < 5; i++) {
+    num+=i;
+}
+console.log(num);
+```
+[百度123](http://www.baidu.com/" 百度一下"){:target="_blank"}   
+
+![](./01.png '描述')
+![name][01]
+[01]: ./01.png '描述'
+
+[![](./01.png '百度')](http://www.baidu.com){:target="_blank"}        // 内链式
+
+[![](./01.png '百度')][5]{:target="_blank"}                       // 引用式
+[5]: http://www.baidu.com 
+
+1. one
+2. two
+3. three
+
+* one
+* two
+* three
+
+1. one
+   1. one-1
+    1. two-2
+2. two 
+    * two-1
+    * two-2
+
+
+* one
+
+```javascript
+    var a = 10;     // 与上行保持空行并 递进缩进
+```
+
+- [x] 选项一
+- [ ] 选项二  
+- [ ]  [选项3]
+
+<p style="color: #AD5D0F;font-size: 30px; font-family: '宋体';">内联样式</p>
+
+*斜体* _斜体_ **加粗** ***加粗+斜体*** **_加粗+斜体_** ~~删除线~~
+
+<i>斜体</i> <b>加粗</b> <em>强调</em> Z<sup>a</sup> Z<sub>a</sub> <kbd>Ctrl键</kbd> <xxx@outlook.com>
+
+<pre>
+    hello world 
+        hi
+    hello world 
+</pre>
+
+***
+---
+* * *
+
+***
+
+Markdown[^id]
+
+[公式标题锚点](#id)
