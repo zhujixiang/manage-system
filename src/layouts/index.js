@@ -1,12 +1,18 @@
-import styles from './index.css';
+import React, { Component } from 'react';
 
-function BasicLayout(props) {
-  return (
-    <div className={styles.normal}>
-      <h1 className={styles.title}>Yay! Welcome to umi!</h1>
-      {props.children}
-    </div>
-  );
+// import styles from './index.css';
+
+class BasicLayout extends Component {
+	render() {
+		return (
+			<div>
+				<div style={{ background: 'lightgray', textAlign: 'center' }}>
+					laylout
+				</div>
+				{this.props.children}
+			</div>
+		);
+	}
 }
 
-export default BasicLayout;
+export default BasicLayout
