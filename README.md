@@ -1,6 +1,7 @@
 # manage-system
  后台管理，页面主要为表单和表格
 
+```
 npm create umi
 
 ? Select the boilerplate type (Use arrow keys)
@@ -36,52 +37,26 @@ npm create umi
 ✨ File Generate Done
 ```
 
-- [manage-system](#manage-system)
-- [h1](#h1)
-  - [h2](#h2)
-    - [h3](#h3)
-      - [h4](#h4)
-        - [h5](#h5)
-          - [h6](#h6)
-- [一级标题](#%e4%b8%80%e7%ba%a7%e6%a0%87%e9%a2%98)
-  - [二级标题](#%e4%ba%8c%e7%ba%a7%e6%a0%87%e9%a2%98)
-  - [<hr>](#hr)
-
 # h1
+
 ## h2
+
 ### h3
+
 #### h4
+
 ##### h5
+
 ###### h6
 
-一级标题
-===
-二级标题
----
-
-> hello world!
->> hello world!
->>> hello world!
-
 > hello world!
 
-请问`hello world`
-`
 <div>
     <div>111</div>
     <div>222</div>
     <div>333</div>
 </div>
-`
 
-// 代码
-```
-<div>   
-    <div></div>
-    <div></div>
-    <div></div>
-</div>
-```
 
 // javascript代码
 ```javascript
