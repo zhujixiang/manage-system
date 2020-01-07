@@ -37,6 +37,12 @@ npm create umi
 ✨ File Generate Done
 ```
 
+
+```javascript
+// issue
+勾选  在线服务设置 勾选TypeScript
+```
+
 # h1
 
 ## h2

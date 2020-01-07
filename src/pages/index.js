@@ -1,9 +1,18 @@
-import styles from './index.css';
+import React, { PureComponent } from 'react';
+import router from 'umi/router';
 
-export default function () {
-	return (
-		<div className={styles.normal}>
-			一般作为跳转介质页
-		</div>
-	);
+class List extends PureComponent {
+	componentDidMount() {
+		router.push('demopage');
+	}
+
+	render() {
+		return (
+			<div>
+				跳转页
+			</div>
+		)
+	}
 }
+
+export default List
