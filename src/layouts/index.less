@@ -1,0 +1,30 @@
+:global {
+    .slider{
+        color: red;
+        font-weight: bold;
+    }
+}
+
+// 引用：https://www.techug.com/post/css_modules.html
+// CSS Modules 具有局部作用域和模块依赖（推荐配套使用Webpack 的css-loader插件）
+// CSS Modules 允许使用:global(.className)的语法，声明一个全局规则。凡是这样声明的class，都不会被编译成哈希字符串。（css-loader默认的哈希算法是[hash:base64]）
+// CSS Modules 还提供一种显式的局部作用域语法:local(.className)
+// 对象引入样式，会生成hash值（全局唯一）
+
+// CSS Modules 支持使用变量（需安装postcss-loader、postcss-modules-values）
+// CSS Modules 中，选择器可继承，称为”组合”（“composition”）
+// .e.g
+// .className {
+//     background-color: blue;
+// }
+// .title {
+//     composes: className;
+//     color: red;
+// }
+// 让.title继承.className
+
+// .title {
+//     composes: className from './another.css';
+//     color: red;
+// }
+// 让.title继承another.css的.className
