@@ -15,7 +15,6 @@ class AddList extends PureComponent {
                         return <Button key={index}>{`组件内Button${item}`}</Button>
                     })
                 }
-
             </div>
         )
     }
