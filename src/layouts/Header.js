@@ -4,9 +4,9 @@ class Header extends PureComponent {
     render() {
         return (
             <div className='header'>
-                <h1>
+                <h4>
                     123页头
-                </h1>
+                </h4>
             </div>
         )
     }
