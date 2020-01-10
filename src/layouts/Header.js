@@ -5,7 +5,7 @@ class Header extends PureComponent {
         return (
             <div className='header'>
                 <h4>
-                    123页头
+                    自维护系统，持续学习，持续更新。。。
                 </h4>
             </div>
         )

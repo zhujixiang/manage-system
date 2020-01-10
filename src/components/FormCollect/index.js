@@ -43,18 +43,22 @@ class FormCollect extends PureComponent {
             }
             console.log(attach)
             const formItemElement = (
-                <FormItem
-                    // {...attach} // 附加属性，放在下方可覆盖上方默认属性
-                    style={{
-                        width:'500px'
-                    }}
-                    key={name} // map遍历需要唯一值key
-                    label={label}
+                <>
+                    <FormItem
+                        // {...attach} // 附加属性，放在下方可覆盖上方默认属性
+                        style={{
+                            width: '500px'
+                        }}
+                        key={name} // map遍历需要唯一值key
+                        label={label}
                     // labelCol={{ span: 3 }}
                     // wrapperCol={{ span: 20, offset: 1 }}
-                >
-                    {getFieldDecorator(name, decorator)(formElement)}
-                </FormItem>
+                    >
+                        {getFieldDecorator(name, decorator)(formElement)}
+                        <span className='colorred'>123123</span>
+                    </FormItem>
+                </>
+
             );
 
             return formItemElement;
@@ -65,7 +69,7 @@ class FormCollect extends PureComponent {
         return (
             <Form
                 layout={'horizontal'}
-                labelAlign='right'
+            // labelAlign='right'
             // 'horizontal'|'vertical'|'inline'
             >
                 {this.renderForms()}
